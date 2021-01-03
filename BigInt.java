@@ -1,10 +1,4 @@
-/*
- * Student First Name: Isabella
- * Student Last Name: Rocha
- * Student BU Number: bellailr
- * Honor Code:
- */
- 
+
 package lab4;
 
 import java.util.Arrays;
