@@ -1,17 +1,4 @@
 package hw2;
-
-/*
- * Your First Name: Isabella
- * Your Last Name: Rocha
- * Your BU username: bellailr
- * 
- * Honor Code: I pledge that this program represents my own
-// program code and that I have coded on my own. I have also 
-// read the collaboration policy on the course syllabus for 
-// CS 112 and my program adheres and is consistent with the 
-// course syllabus.
- * 
- */
 public class Fraction
 {
 	private	int numerator;
