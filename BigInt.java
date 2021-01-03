@@ -4,16 +4,19 @@
  * Student BU Number: bellailr
  * Honor Code:
  */
+ 
 package lab4;
 
-import java.util.Arrays;                    // so that we can print out arrays using Arrays.toString(...)
+import java.util.Arrays;
+// so that we can print out arrays using Arrays.toString(...)
 
 public class BigInt  { 
     
+    public static final int SIZE = 20;      
+    // length of arrays representing big ints
     
-    public static final int SIZE = 20;      // length of arrays representing big ints
-    
-    public static final int[] NaBI = { -1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };  // error value
+    public static final int[] NaBI = { -1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 };  
+    // error value
     
     public static int[] intToBigInt(int n) {
     	int flength = 20;
@@ -29,7 +32,7 @@ public class BigInt  {
     		a[flength - b.length()] = integer;
     		flength++;
     	}
-        return a;    // just to get it to compile
+        return a;    
     }
     
     public static int[] stringToBigInt(String s) {
